@@ -1,1 +1,21 @@
-
+if game.PlaceId == 2317712696 then 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub/main/ToxicTDX", true))()
+elseif game.PlaceId == 4738545896 then 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub/main/Shoot%20Out", true))()
+elseif game.PlaceId == 10905034443 then 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub/main/Smoothie%20Factory%20Tycoon", true))()
+elseif game.PlaceId == 9872472334 then 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub/main/Evade", true))()
+elseif game.PlaceId == 13284033561 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub/main/Fishing%20Frenzy", true))()
+elseif game.PlaceId == 3068144257 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub/main/Taxi%20Sim", true))()
+elseif game.PlaceId == 4972091010 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub/main/Zombie%20Uprising", true))()
+elseif game.PlaceId == 6839171747 then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub/main/Doors", true))()
+elseif game.PlaceId == 13127800756 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub/main/Arm%20Wrestle%20Simulator", true))()
+else
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub/main/Universal", true))()
+end
