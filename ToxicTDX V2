@@ -1,4 +1,53 @@
-if game.PlaceId == 2317712696 then 
+local Atlas = loadstring(game:HttpGet("https://siegehub.net/Atlas.lua"))()
+
+--[[hello there skids. you tryna get the source? your in luck today! check the source file ;) i gotchu covered]]--
+--[[anyways, you smartasses that think you can get the key for fwee!! are stupid, just join the server lol.]]--
+--[[For you people who keep track of TDX Updates, Here is the latest one
+Updated Arm Wrestle Sim Script
+Added Case opening simulator script]]--
+
+local UI = Atlas.new({
+    Name = "ToxicTDX | Key System";
+    ConfigFolder = "TDX v2 key sys";
+    Credit = "Made By ToxicManHimself";
+    Color = Color3.fromRGB(255,0,0);
+    Bind = "LeftControl";
+    UseLoader = true;
+    FullName = "ToxicTDX V2";
+    CheckKey = function(inputtedKey)
+        return inputtedKey=="TDXV2RELEASEEEEEEEEEEEE"
+    end;
+    Discord = "https://discord.gg/xu5dDS3Pb9";
+})
+
+local MyPage = UI:CreatePage("ToxicTDX Loader")
+local MySection = MyPage:CreateSection("Loader")
+
+-- Unsupported Executors for ToxicTDX V2
+local UnsupportedExecutors = {
+  "Oxygen U",
+  "Evon",
+  "Vega X",
+  "Valyse",
+  "Comet",
+}
+
+local executor = getexecutorname()
+
+if table.find(UnsupportedExecutors, executor) then
+  local FPS = 1
+  local clock = tick()
+  while true do
+    while clock + 1 / FPS > tick() do end
+    wait()
+    clock = tick()
+  end
+end
+
+MySection:CreateButton({
+    Name = "Load ToxicTDX V2"; -- required: name of element
+    Callback = function() -- required: function to be called when button is pressed
+        if game.PlaceId == 2317712696 then 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub/main/ToxicTDX", true))()
 elseif game.PlaceId == 4738545896 then 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub/main/Shoot%20Out", true))()
@@ -19,3 +68,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub
 else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub/main/Universal", true))()
 end
+    end
+})
