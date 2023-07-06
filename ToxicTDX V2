@@ -100,6 +100,12 @@ local UnsupportedExecutors = {
   "Evon",
   "Vega X",
   "Fluxus",
+  "Celery",
+  "Delta",
+  "JJsploit",
+  "SirHurt",
+  "Nihon",
+  "Trigon",
 }
 
 local executor = getexecutorname()
