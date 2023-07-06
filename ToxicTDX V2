@@ -93,10 +93,7 @@ local UI = Atlas.new({
     end;
     Discord = "https://discord.gg/CJNcM9rYZY";
 })
-
-local MyPage = UI:CreatePage("ToxicTDX Loader")
-local MySection = MyPage:CreateSection("Loader")
-
+UI:Destroy()
 -- Unsupported Executors for ToxicTDX V2
 local UnsupportedExecutors = {
   "Oxygen U",
@@ -116,11 +113,7 @@ if table.find(UnsupportedExecutors, executor) then
     clock = tick()
   end
 end
-
-MySection:CreateButton({
-    Name = "Load ToxicTDX V2"; -- required: name of element
-    Callback = function() -- required: function to be called when button is pressed
-        if game.PlaceId == 2317712696 then 
+       if game.PlaceId == 2317712696 then 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub/main/ToxicTDX", true))()
 elseif game.PlaceId == 4738545896 then 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub/main/Shoot%20Out", true))()
@@ -143,6 +136,3 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub
 else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub/main/Universal", true))()
 end
-UI:Destroy()
-    end
-})
