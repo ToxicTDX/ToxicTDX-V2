@@ -89,9 +89,9 @@ local UI = Atlas.new({
     UseLoader = true;
     FullName = "ToxicTDX V2";
     CheckKey = function(inputtedKey)
-        return inputtedKey=="TDXV2RELEASEEEEEEEEEEEE"
+        return inputtedKey=="TDXV2"
     end;
-    Discord = "https://discord.gg/xu5dDS3Pb9";
+    Discord = "https://discord.gg/CJNcM9rYZY";
 })
 
 local MyPage = UI:CreatePage("ToxicTDX Loader")
