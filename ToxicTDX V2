@@ -144,5 +144,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub
 else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub/main/Universal", true))()
 end
+UI:Destroy()
     end
 })
