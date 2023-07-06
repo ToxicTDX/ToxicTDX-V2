@@ -102,7 +102,6 @@ local UnsupportedExecutors = {
   "Oxygen U",
   "Evon",
   "Vega X",
-  "Comet",
   "Fluxus",
 }
 
