@@ -94,30 +94,6 @@ local UI = Atlas.new({
     Discord = "https://discord.gg/CJNcM9rYZY";
 })
 UI:Destroy()
--- Unsupported Executors for ToxicTDX V2
-local UnsupportedExecutors = {
-  "Oxygen U",
-  "Evon",
-  "Vega X",
-  "Celery",
-  "Delta",
-  "JJsploit",
-  "SirHurt",
-  "Nihon",
-  "Trigon",
-}
-
-local executor = getexecutorname()
-
-if table.find(UnsupportedExecutors, executor) then
-  local FPS = 1
-  local clock = tick()
-  while true do
-    while clock + 1 / FPS > tick() do end
-    wait()
-    clock = tick()
-  end
-end
        if game.PlaceId == 2317712696 then 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub/main/ToxicTDX", true))()
 elseif game.PlaceId == 4738545896 then 
