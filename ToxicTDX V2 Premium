@@ -87,7 +87,7 @@ local UI = Atlas.new({
     UseLoader = true;
     FullName = "ToxicTDX V2";
     CheckKey = function(inputtedKey)
-        return inputtedKey=="tdxupdate"
+        return inputtedKey=="TDXNeverUpdateKey"
     end;
     Discord = "https://discord.gg/CJNcM9rYZY";
 })
