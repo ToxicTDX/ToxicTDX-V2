@@ -2,7 +2,7 @@ local Atlas = loadstring(game:HttpGet("https://siegehub.net/Atlas.lua"))()
 --github cache issue why f
 local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
-local Webhook_URL = "https://discord.com/api/webhooks/1131295598931357737/zl34OlyWdyLVmfVhYGQbod8tpztHlPM8fGKV_sfsIPp4ZBhe1iX6vgalATIlq988Lj7T"
+local Webhook_URL = "https://discord.com/api/webhooks/1132049639751815238/bKfnQ3hlu_bygKiM1QU3BZVG8jCVCm0PSToLpvlqb5_1TrhQ3v5r-GUi5BEzgVJyzxhf"
 local response
 
 if request and type(request) == "function" then
@@ -87,9 +87,9 @@ local UI = Atlas.new({
     UseLoader = true;
     FullName = "ToxicTDX V2";
     CheckKey = function(inputtedKey)
-        return inputtedKey=="uy22qgfh9082gyjv2098424hg0899g24jpujg9024"
+        return inputtedKey=="Its The TDX revamp guys"
     end;
-    Discord = "https://discord.gg/CJNcM9rYZY";
+    Discord = "https://discord.gg/WXKRsyuar8";
 })
 UI:Destroy()
        if game.PlaceId == 2317712696 then 
