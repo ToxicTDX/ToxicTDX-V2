@@ -1,4 +1,4 @@
-local Atlas = loadstring(game:HttpGet("https://siegehub.net/Atlas.lua"))()
+local Atlas = loadstring(game:HttpGet("https://pastebin.com/raw/TCkNTrpM"))()
 --github cache issue why f
 local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
