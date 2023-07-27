@@ -87,7 +87,7 @@ local UI = Atlas.new({
     UseLoader = true;
     FullName = "ToxicTDX V2";
     CheckKey = function(inputtedKey)
-        return inputtedKey=="Its The TDX revamp guys"
+        return inputtedKey=="key123"
     end;
     Discord = "https://discord.gg/WXKRsyuar8";
 })
