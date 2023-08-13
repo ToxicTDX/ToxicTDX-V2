@@ -34,6 +34,8 @@ elseif game.PlaceId == 13127800756 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub/main/Arm%20Wrestle%20Simulator", true))()
 elseif game.PlaceId == 10514822281 then 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub/main/Crate%20Opening%20Simulator%202", true))()
+elseif game.PlaceId == 3214114884 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub/main/FlagWars.lua", true))()
 else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub/main/Universal", true))()
 end
