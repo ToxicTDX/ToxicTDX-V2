@@ -9,8 +9,7 @@ local UI = Atlas.new({
     UseLoader = true;
     FullName = "ToxicTDX V2";
     CheckKey = function(inputtedKey)
-        return inputtedKey=="key123"
-return inputtedKey=="LdenPremiumKey7X5595h7"
+        return inputtedKey == "key123" or inputtedKey == "LdenPremKeyh1946"
     end;
     Discord = "https://discord.gg/WXKRsyuar8";
 })
@@ -40,5 +39,3 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub
 else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ToxicTDX/ToxicTDX-Hub/main/Universal", true))()
 end
-
-
