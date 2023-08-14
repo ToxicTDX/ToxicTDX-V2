@@ -9,7 +9,7 @@ local UI = Atlas.new({
     UseLoader = true;
     FullName = "ToxicTDX V2";
     CheckKey = function(inputtedKey)
-        return inputtedKey == "key123" or inputtedKey == "LdenPremKeyh1946"
+        return inputtedKey == "1883378623946chfwu287wh87c24g72vg3f4v34" or inputtedKey == "LdenPremKeyh1946"
     end;
     Discord = "https://discord.gg/WXKRsyuar8";
 })
