@@ -1,4 +1,12 @@
-game.Players.LocalPlayer:Kick("toxictdx is discontinued. contact owner for more info. discord: thetoxicmanhimself")
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+	Title = "This script is discontinued";
+	Text = "Please be warned that this script may not work properly as it will not recieve more updates. More info in the discord.";
+	Duration = 5;
+	--Callback here
+	Button1 = "Yes, I understand";
+})
 local Atlas = loadstring(game:HttpGet("https://pastebin.com/raw/TCkNTrpM"))()
 
 local UI = Atlas.new({
